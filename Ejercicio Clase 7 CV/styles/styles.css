@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    width: 150px;
+}
+
+h1{
+    background-color: #C4C4C4;
+    margin-bottom: 90px;
+}
+
+h2{
+    background-color: #C4C4C4;
+}
+
+footer{
+    background-color: #005677;
+    text-align: center;
+    color: azure;
+}
+
+.iconos{
+    width: 30px;
+}
