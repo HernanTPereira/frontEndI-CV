@@ -10,12 +10,20 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+body{
+    font-family:'Roboto', sans-serif;
+}
+
 header{
     text-align: center;
+    background-image: url("../img/Ilustración_sin_título.jpg");
+    background-size: cover;
 }
 
 img{
     width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
 
 h1{
@@ -28,9 +36,12 @@ h2{
 }
 
 footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
     background-color: #005677;
-    text-align: center;
     color: azure;
+    padding: 10px;
 }
 
 .iconos{
